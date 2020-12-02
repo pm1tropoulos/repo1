@@ -1,3 +1,4 @@
+import { BasicHighlightDirective } from './basic-highlight/basic-highlight.directive';
 import { FormsModule } from '@angular/forms';
 import { ServerComponent } from './server/server.component';
 import { BrowserModule } from '@angular/platform-browser';
@@ -16,7 +17,8 @@ import { ServerElementComponent } from './server-element/server-element.componen
     ServerComponent,
     ServersComponent,
     CockpitComponent,
-    ServerElementComponent
+    ServerElementComponent,
+    BasicHighlightDirective
   ],
   imports: [
     BrowserModule,
